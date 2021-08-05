@@ -1,0 +1,2 @@
+body,html{margin:0;padding:0}.main{height:100vh;display:-webkit-box;display:-ms-flexbox;display:flex}.main .box:nth-child(1){background:red;width:200px;height:200px;-webkit-box-flex:0;-ms-flex:0 1 500px;flex:0 1 500px}.main .box:nth-child(2){background:green;width:200px;height:200px}.main .box:nth-child(3){background:violet;width:200px;height:200px}.main .box:nth-child(4){background:yellow;width:200px;height:200px}
+/*# sourceMappingURL=index.css.map */

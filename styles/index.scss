@@ -1,0 +1,60 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    height: 100vh;
+    // 1D layout
+    display: flex;
+    // flex-direction: column;
+    // flex-wrap: wrap;
+    // flex-flow: row wrap;  Shorthand for f-direction and f-warp
+    // justify-content: space-evenly; follow the flex-direction ;
+
+    // align-items: center; follow the opposite flex direction
+
+    
+    .box:nth-child(1){
+        background: red;
+        width: 200px;
+        height: 200px;
+
+        // Assigned the position 0-n
+        // order: 3;
+
+
+        // accommodate container free space it's like 1fr from css grid
+        // flex-grow: 2;
+
+
+        // How boxes responses default 1 the bigger the number the boxes response fast to resizing 
+        // flex-shrink: 2;
+
+        // initial main size of a flex item.
+        // flex-basis: 250px;
+
+        // Shorthand grow shrink and basis if you use basis make the grow to 0 value 
+        flex: 0 1 500px ;
+    }
+    .box:nth-child(2){
+        background: green;
+        width: 200px;
+        height: 200px;
+        // order: 2;
+        // flex-grow: 1;
+    }
+    .box:nth-child(3){
+        background:violet;
+        width: 200px;
+        height: 200px;
+        // order: 0;
+        // flex-grow: 1;
+    }
+    .box:nth-child(4){
+        background:yellow;
+        width: 200px;
+        height: 200px;
+        // order: 1;
+    }
+}
